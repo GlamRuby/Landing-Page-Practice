@@ -1,17 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Dog Kira</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Akaya Telivigala|Anonymous Pro">
+    <script src="https://kit.fontawesome.com/d4aa8de0d9.js" crossorigin="anonymous"></script>
+    <!--TITLU PROVIZORIU-->
+    <title>A Tribute to Kira</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
   </head>
   <body>
-    <main>
-        <h1>This is a Tribute to Kira</h1>  
+    <header id="header">
+       <img id="header-img" 
+       src="img/Snugglelogo.jpg" 
+       alt="Kira Logo" 
+       <nav id="nav-bar">
+          <ul class="right">
+             <li id="about"><a href="#main-1" class="nav-link appear1">About</a></li>
+             <li id="pricing"><a href="#main-2" class="nav-link appear2">Adventures</a></li>
+          </ul>
+       </nav>
+    </header>
+
+    <main class="cards">
+      <img src="img/Dock.jpg" alt="Sample photo">
+      <img src="img/G&Kira.jpg" alt="Sample photo">
+      <img src="img/KiraBellyRub.jpg" alt="Sample photo">
+      
     </main>
-	<script src="index.js"></script>
-  </body>
+
+
+    <main class="main-1">
+       <i> </i><span id="icon-about"> ABOUT KIRA</span></i>
+       <h2 class="motto">"The best dog"- Claire</h2>
+       <p class="description">Cute Doggo: <span class="cname">Kira</span> Golden retrever, catahoula, german sheperd and more.</p>
+       <p class="description2"> Found staring at a fridge waiting for a piece of cheese</p>
+       <a href="https://www.glennrubin.com/kira/" id="know-more">Cute dog questions?</a>
+    </main>
+
+    
+    <main id="main-2">
+       <div class="box1">
+          <h1 class="title">Early Days</h1>
+          <h2>Under 1 year old</h2>
+          <img src="img/1monthKira.jpg" alt="Kira at one month old">
+          <a href="#" class="select1">See More</a>
+       </div>
+       <div class="box2">
+          <h1 class="title">Adventurous</h1>
+          <h2>3-6 years old</h2>
+
+          <img src="img/Riverdog.JPG" alt="Kira at one month old">
+
+          <a href="#" class="select2">See Adventure</a>
+       </div>
+       <div class="box3">
+          <h1 class="title">Bespoke</h1>
+          <h2>6+ years old</h2>
+          <img src="img/Snuggle.jpg" alt="Kira at one month old">
+          <a href="#" class="select3">Nice Doggo</a>
+       </div>
+    </main>
+    <main class="main-3">
+       <div>
+         <p class="quotes">“Grrr roww roow roow Give me that food.” </p>
+         <h2 class="author">- GR</h2>
+       </div>
+    </main>
+    <footer class="footer">
+       <p>Copyright © The Odin Project 2024</p>
+    </footer>
+ </body>
 </html>
